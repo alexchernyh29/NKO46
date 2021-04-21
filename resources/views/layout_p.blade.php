@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,7 +19,7 @@
 {{--    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>--}}
 
 
-    <!-- Styles -->
+<!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
@@ -28,24 +28,24 @@
         <div class="container">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <header>
-{{--                    <div id="logo">--}}
-{{--                        <img src="img/6.png">--}}
-{{--                    </div>--}}
+                    {{--                    <div id="logo">--}}
+                    {{--                        <img src="img/6.png">--}}
+                    {{--                    </div>--}}
 
-{{--                    <div id="about">--}}
-{{--                        <a href="organization.index" class="link">Об организации</a>--}}
-{{--                        <a href="projects.index" class="link">Проекты</a>--}}
-{{--                        <a href="news.index" class="link">Новости</a>--}}
-{{--                        <a href="partners.index" class="link">Партнеры</a>--}}
-{{--                        <a href="contacts.index" class="link">Контакты</a>--}}
-{{--                        <a href="reporting.index" class="link">Отчетность</a>--}}
-{{--                    </div>--}}
+                    {{--                    <div id="about">--}}
+                    {{--                        <a href="organization.index" class="link">Об организации</a>--}}
+                    {{--                        <a href="projects.index" class="link">Проекты</a>--}}
+                    {{--                        <a href="news.index" class="link">Новости</a>--}}
+                    {{--                        <a href="partners.index" class="link">Партнеры</a>--}}
+                    {{--                        <a href="contacts.index" class="link">Контакты</a>--}}
+                    {{--                        <a href="reporting.index" class="link">Отчетность</a>--}}
+                    {{--                    </div>--}}
 
                 </header>
                 <!-- Left Side Of Navbar -->
                 <ul class="navbar-nav mr-auto">
 
-                        <img src="/images/6.png" class="img-thumbnail"  alt="">
+                    <img src="/images/6.png" class="img-thumbnail"  alt="">
 
                 </ul>
 
@@ -65,4 +65,3 @@
 </div>
 </body>
 </html>
-
