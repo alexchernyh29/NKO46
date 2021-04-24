@@ -1,9 +1,9 @@
 @extends('layout')
 
 @section('content')
-    <div class="container">
+
         <h3>Проекты</h3>
-        <table class="table">
+        <table class="table" >
             <thead class="thead-light">
             <tr>
                 <th scope="col">ID</th>
@@ -11,7 +11,6 @@
                 <th scope="col">Описание проекта</th>
                 <th scope="col">Ссылки</th>
                 <th scope="col">Действия</th>
-
             </tr>
             </thead>
             @foreach ($project as $one_project)
@@ -39,7 +38,5 @@
             @endforeach
         </table>
         <a href="{{ route('project.create') }}" class="btn btn-success">Create</a>
-
-    </div>
 
 @endsection

@@ -10,59 +10,80 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Select2 -->
-{{--    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />--}}
-{{--    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>--}}
-
-
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body>
-<div id="app">
-    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-        <div class="container">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <header>
-{{--                    <div id="logo">--}}
-{{--                        <img src="img/6.png">--}}
-{{--                    </div>--}}
-
-{{--                    <div id="about">--}}
-{{--                        <a href="organization.index" class="link">Об организации</a>--}}
-{{--                        <a href="projects.index" class="link">Проекты</a>--}}
-{{--                        <a href="news.index" class="link">Новости</a>--}}
-{{--                        <a href="partners.index" class="link">Партнеры</a>--}}
-{{--                        <a href="contacts.index" class="link">Контакты</a>--}}
-{{--                        <a href="reporting.index" class="link">Отчетность</a>--}}
-{{--                    </div>--}}
-
-                </header>
-                <!-- Left Side Of Navbar -->
-                <ul class="navbar-nav mr-auto">
-
-                        <img src="/images/6.png" class="img-thumbnail"  alt="">
-
-                </ul>
-
-                <!-- Right Side Of Navbar -->
-                <ul class="navbar-nav ml-auto">
-                    <a href="{{route('news.index')}}" class="btn btn-light"> Новости</a>
-                    <a href="{{route('project.index')}}" class="btn btn-light"> Проекты</a>
-
-                </ul>
-            </div>
+<body style="background-color: #f8f9fa">
+<div class="navbar justify-content-between bg-light" style="display: flex; padding: 20px;border-bottom: solid 1px grey;">
+    <div style="margin-left: 50px;">
+        <img src="/images/6.png" alt="">
+    </div>
+    <div class="row" style="margin-right: 50px">
+        <div class="hv">
+            <a href="/banner">Главная</a>
         </div>
-    </nav>
-
-    <main class="py-4">
+        <div class="hv">
+            <a href="{{route('news.index')}}">Новости</a>
+        </div>
+        <div class="hv">
+            <a href="{{route('project.index')}}">Проекты</a>
+        </div>
+        <div class="hv">
+            <a href="#">Деятельность</a>
+        </div>
+        <div class="hv">
+            <a href="#">Отчетность</a>
+        </div>
+        <div class="hv">
+            <a href="/address">Адрес и Контакты</a>
+        </div>
+        <div class="hv">
+            <a href="#">Партнеры</a>
+        </div>
+        <div class="hv">
+            <a href="/sotrudniki">Сотрудники</a>
+        </div>
+        <div class="hv">
+            <a href="/info_org">Об организации</a>
+        </div>
+    </div>
+</div>
+<style>
+    a{
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    a:hover{
+        color: black;
+        text-decoration: none;
+    }
+    .hv{
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .hv:hover{
+        background-color: rgba(255, 190, 10, 1);;
+        -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+        box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    }
+    #bg{
+        background-image: url("../images/5.png"); background-size: 100%
+    }
+    #gb {
+        background-image: url("../images/5.png");
+    }
+</style>
+    <main>
         @yield('content')
     </main>
-</div>
+
 </body>
 </html>
 

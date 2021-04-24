@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-    <div class="container">
+
         <h3>My news</h3>
         <table class="table">
             <thead class="thead-light">
@@ -39,8 +39,6 @@
             @endforeach
         </table>
         <a href="{{ route('news.create') }}" class="btn btn-success">Create</a>
-
-    </div>
 
 @endsection
 

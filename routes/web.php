@@ -20,6 +20,8 @@ Route::get('/banner', function () {return view('banner');});
 Route::get('/info_org', function () {return view('info_org');});
 Route::get('/address', function () {return view('address');});
 Route::get('/dei', function () {return view('dei');});
+Route::get('/sotrudniki', function () {return view('sotrudniki');});
+Route::get('/project', function () {return view('project');});
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
