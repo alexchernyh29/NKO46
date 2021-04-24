@@ -54,11 +54,15 @@ class ProjectController extends Controller
     }
 
     /**
+     * @param Request $request
      * @param $id
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
-    public function show($id)
+    public function show(Request $request, $id)
     {
-        //
+        $project_id = $id;
+        $data['project'] = Project::find($project_id);
+        return view('project.show', $data);
     }
 
     /**

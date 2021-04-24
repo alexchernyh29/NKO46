@@ -54,11 +54,15 @@ class NewsController extends Controller
     }
 
     /**
+     * @param Request $request
      * @param $id
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
-    public function show($id)
+    public function show(Request $request, $id)
     {
-        //
+        $news_id = $id;
+        $data['news'] = News::find($news_id);
+        return view('news.show', $data);
     }
 
     /**

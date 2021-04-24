@@ -14,14 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('banner');
 });
 Route::get('/banner', function () {return view('banner');});
 Route::get('/info_org', function () {return view('info_org');});
 Route::get('/address', function () {return view('address');});
 Route::get('/dei', function () {return view('dei');});
 Route::get('/sotrudniki', function () {return view('sotrudniki');});
-Route::get('/project', function () {return view('project');});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
@@ -33,6 +33,7 @@ Route::post('news/store', [\App\Http\Controllers\NewsController::class, 'store']
 Route::get('news/edit/{id}', [\App\Http\Controllers\NewsController::class, 'edit'])->name('news.edit');
 Route::get('news/destroy/{id}', [\App\Http\Controllers\NewsController::class, 'destroy'])->name('news.destroy');
 Route::post('news/update', [\App\Http\Controllers\NewsController::class, 'update'])->name('news.update');
+Route::get('news/show/{id}', [\App\Http\Controllers\NewsController::class, 'show'])->name('news.show');
 
 Route::get('/project', [\App\Http\Controllers\ProjectController::class, 'index'])->name('project.index');
 Route::get('project/create', [\App\Http\Controllers\ProjectController::class, 'create'])->name('project.create');
@@ -40,3 +41,4 @@ Route::post('project/store', [\App\Http\Controllers\ProjectController::class, 's
 Route::get('projects/edit/{id}', [\App\Http\Controllers\ProjectController::class, 'edit'])->name('project.edit');
 Route::get('project/destroy/{id}', [\App\Http\Controllers\ProjectController::class, 'destroy'])->name('project.destroy');
 Route::post('project/update', [\App\Http\Controllers\ProjectController::class, 'update'])->name('project.update');
+Route::get('project/show/{id}', [\App\Http\Controllers\ProjectController::class, 'show'])->name('project.show');
