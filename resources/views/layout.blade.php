@@ -43,7 +43,7 @@
             <a href="/address">Адрес и Контакты</a>
         </div>
         <div class="hv">
-            <a href="#">Партнеры</a>
+            <a href="/partners">Партнеры</a>
         </div>
         <div class="hv">
             <a href="/sotrudniki">Сотрудники</a>
@@ -83,6 +83,7 @@
     <main>
         @yield('content')
     </main>
+
 
 </body>
 </html>

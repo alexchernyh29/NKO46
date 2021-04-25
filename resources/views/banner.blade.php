@@ -45,7 +45,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Партнеры</h5>
                                         <p class="card-text">Норм типы</p>
-                                        <a href="#" class="btn btn-warning">Перейтик к партнерам</a>
+                                        <a href="/partners" class="btn btn-warning">Перейтик к партнерам</a>
                                     </div>
                                 </div>
                             </div>

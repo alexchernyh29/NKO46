@@ -6,7 +6,7 @@
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="card">
                 <div class="col p-4 d-flex flex-column position-static">
                     <strong class="d-inline-block mb-2 ">Алексеенко Александр Иванович</strong>
-                    <p class="card-text mb-auto">учредитель Центра региональных исследователей, кандидат социологических наук, доцент кафедры социологии и философии Юго-Западного государственного университета, автор более 90 научных работ.</p>
+                    <p class="card-text mb-auto">Учредитель Центра региональных исследователей, кандидат социологических наук, доцент кафедры социологии и философии Юго-Западного государственного университета, автор более 90 научных работ.</p>
                 </div>
                 <div>
                     <img src="/images/ковёр.jpg"  class="img-thumbnail"  alt="Алексеенко Александр Иванович">
@@ -19,7 +19,7 @@
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="card">
                 <div class="col p-4 d-flex flex-column position-static">
                     <strong class="d-inline-block mb-2 ">Бодякова София Анатольевна</strong>
-                    <p class="card-text mb-auto">учредитель Центра региональных исследований, социолог, сотрудник АНО «Медиалогия».</p>
+                    <p class="card-text mb-auto">Учредитель Центра региональных исследований, социолог, сотрудник АНО «Медиалогия».</p>
                 </div>
                 <div>
                     <img src="/images/ковёр.jpg"  class="img-thumbnail"  alt="Бодякова София Анатольевна">
@@ -31,7 +31,7 @@
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="card">
                 <div class="col p-4 d-flex flex-column position-static">
                     <strong class="d-inline-block mb-2 ">Гримов Олег Александрович</strong>
-                    <p class="card-text mb-auto">социолог, кандидат социологических наук, доцент кафедры философии и социологии Юго – Западного государственного университета, старший научный сотрудник Центра регионального развития, научный сотрудник Центра социальной теории и инновационных технологий кафедры философии и социологии ЮЗГУ.</p>
+                    <p class="card-text mb-auto">Социолог, кандидат социологических наук, доцент кафедры философии и социологии Юго – Западного государственного университета, старший научный сотрудник Центра регионального развития, научный сотрудник Центра социальной теории и инновационных технологий кафедры философии и социологии ЮЗГУ.</p>
                 </div>
                 <div>
                     <img src="/images/ковёр.jpg"  class="img-thumbnail"  alt="Гримов Олег Александрович">
@@ -43,7 +43,7 @@
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="card">
                 <div class="col p-4 d-flex flex-column position-static">
                     <strong class="d-inline-block mb-2 ">Шклярик Александра Павловна</strong>
-                    <p class="card-text mb-auto"> юрист, социолог, заместитель директора Центра регионального развития.</p>
+                    <p class="card-text mb-auto"> Юрист, социолог, заместитель директора Центра регионального развития.</p>
                 </div>
                 <div>
                     <img src="/images/ковёр.jpg"  class="img-thumbnail"  alt="Шклярик Александра Павловна">
@@ -55,7 +55,7 @@
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="card">
                 <div class="col p-4 d-flex flex-column position-static">
                     <strong class="d-inline-block mb-2 ">Земцова Екатерина Андреевна</strong>
-                    <p class="card-text mb-auto">председатель организации, юрист, проектный менеджер, аналитик Центра регионального развития.</p>
+                    <p class="card-text mb-auto">Председатель организации, юрист, проектный менеджер, аналитик Центра регионального развития.</p>
                 </div>
                 <div>
                     <img src="/images/ковёр.jpg" class="img-thumbnail"  alt="Земцова Екатерина Андреевна">
@@ -67,7 +67,7 @@
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="card">
                 <div class="col p-4 d-flex flex-column position-static">
                     <strong class="d-inline-block mb-2 ">Огурцова Альбина Юрьевна</strong>
-                    <p class="card-text mb-auto">заместитель председателя организации, социолог, начальник исследовательского отдела Центра регионального развития.
+                    <p class="card-text mb-auto">Заместитель председателя организации, социолог, начальник исследовательского отдела Центра регионального развития.
                     </p>
                 </div>
                 <div>
@@ -80,7 +80,7 @@
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="card">
                 <div class="col p-4 d-flex flex-column position-static">
                     <strong class="d-inline-block mb-2 ">Воробьев Евгений Александрович</strong>
-                    <p class="card-text mb-auto">социолог, аналитик Центра регионального развития, секретарь Центра региональных исследований.</p>
+                    <p class="card-text mb-auto">Социолог, аналитик Центра регионального развития, секретарь Центра региональных исследований.</p>
                 </div>
                 <div>
                     <img src="/images/ковёр.jpg"  class="img-thumbnail"  alt="Воробьев Евгений Александрович">
@@ -92,7 +92,7 @@
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="card">
                 <div class="col p-4 d-flex flex-column position-static">
                     <strong class="d-inline-block mb-2 ">Козина Ксения Алексеевна</strong>
-                    <p class="card-text mb-auto">социолог, магистр НИУ ВШЭ по специальности «Социология публичной и деловой сферы».</p>
+                    <p class="card-text mb-auto">Социолог, магистр НИУ ВШЭ по специальности «Социология публичной и деловой сферы».</p>
                 </div>
                 <div>
                     <img src="/images/ковёр.jpg"  class="img-thumbnail"  alt="Козина Ксения Алексеевна">
@@ -104,7 +104,7 @@
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="card">
                 <div class="col p-4 d-flex flex-column position-static">
                     <strong class="d-inline-block mb-2 ">Овчинников Николай Сергеевич</strong>
-                    <p class="card-text mb-auto">социолог, аналитик Центра регионального развития.</p>
+                    <p class="card-text mb-auto">Социолог, аналитик Центра регионального развития.</p>
                 </div>
                 <div>
                     <img src="/images/ковёр.jpg" class="img-thumbnail"  alt="Овчинников Николай Сергеевич">

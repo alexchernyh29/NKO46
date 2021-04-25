@@ -21,6 +21,7 @@ Route::get('/info_org', function () {return view('info_org');});
 Route::get('/address', function () {return view('address');});
 Route::get('/dei', function () {return view('dei');});
 Route::get('/sotrudniki', function () {return view('sotrudniki');});
+Route::get('/partners', function () {return view('partners');});
 
 Auth::routes();
 
