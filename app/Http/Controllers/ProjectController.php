@@ -55,15 +55,26 @@ class ProjectController extends Controller
 
     /**
      * @param Request $request
-     * @param $id
+     * @param $param
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
-    public function show(Request $request, $id)
-    {
-        $project_id = $id;
-        $data['project'] = Project::find($project_id);
-        return view('project.show', $data);
-    }
+   public function show(Request $request, $param)
+   {
+       switch ($param) {
+
+           case
+           'allproject':
+               // todo
+               $data['project'] = Project::all();
+               break;
+           case 'some_project':
+               // todo
+               $data['project'] = Project::whereIn('id', [1,2,3])->get(); // some ids
+               break;
+
+       }
+       return view('project.show', $data);
+   }
 
     /**
      * @param $id

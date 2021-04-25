@@ -19,7 +19,7 @@
             {{Form::text('link', null, ['placeholder'=> 'Введите ФИО', 'class' => 'form-control'])}}
         </div>
 
-        {{Form::submit('Добавить', ['class' => 'btn-success'])}}
+        {{Form::submit('Добавить', ['class' => 'btn btn-success'])}}
         {!! Form::close() !!}
     </div>
 

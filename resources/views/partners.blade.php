@@ -32,6 +32,8 @@
         <h1 class="mt-5"><span>Департамент развития общественных</span> инициатив Общероссийского народного фронта.</h1>
         <p class="luuk">Помогаем помогать. Мы открыты к сотрудничеству с некоммерческими организациями. Мы поддерживаем ваши инициативы, консультируем, помогаем в развитии.</p>
         <p>Где нас найти: <a style="color: #800000" href="https://onf.ru/region/kurskaya_obl">Департамент развития общественных инициатив </a>.</p>
+        <br>
+        <br>
     </div>
     <style>
         * {
@@ -103,7 +105,7 @@
 
         body {
 
-             background: url('../images/5.png') 0 0/140% auto no-repeat;
+             background: url('../images/5.png')0 0/100% auto no-repeat fixed;
          }
 
         .blog-post-title {

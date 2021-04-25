@@ -2,11 +2,11 @@
 
 @section('content')
     <div class="container">
-        <h3>Проекты</h3>
+        <h3>Новости</h3>
         <table class="table">
             <thead class="thead-light">
             <tr>
-                <th scope="col">Заголовок новости</th>
+                <th style="width: 250px" scope="col">Заголовок новости</th>
                 <th scope="col">Описание новости</th>
                 <th scope="col">Ссылки</th>
             </tr>
@@ -15,16 +15,14 @@
                 <tbody>
                 <tr>
                     <td>
-                        {{$one_news->id}}
-                    </td>
-                    <td>
                         {{$one_news->title}}
                     </td>
                     <td>
                         {{$one_news->message}}
                     </td>
                     <td>
-                        <a href="{{$one_news->link}}" class="btn btn-block btn-danger">{{$one_news->link}}</a>
+
+                        <a style="width: 44px;border-radius: 50%" href="{{$one_news->link}}" class="btn btn-block btn-primary text-left">  <i class="fab fa-vk"></i></a>
                     </td>
                 </tr>
                 </tbody>

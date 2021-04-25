@@ -46,7 +46,7 @@
             <a href="/partners">Партнеры</a>
         </div>
         <div class="hv">
-            <a href="/sotrudniki">Сотрудники</a>
+            <a href="/staff">Сотрудники</a>
         </div>
         <div class="hv">
             <a href="/info_org">Об организации</a>
