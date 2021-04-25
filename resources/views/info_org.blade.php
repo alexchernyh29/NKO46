@@ -1,11 +1,11 @@
 @extends('layout')
 
 @section('content')
-    <div class="container">
+    <div class="container" style="margin-top: 80px;">
     <div class="text__color">
         <div class="text">
-            <h1 class="display-3">Информация <span>об организации</span></h1><br><br>
-            <div class="centre display-4" >
+            <h1 class="">Информация <span>об организации</span></h1><br><br>
+            <div class="centre" >
                 <p>Курская региональная общественная организация <span>«Центр региональных исследований и поддержки социальных инициатив Курской области»</span> была основана октябре 2018 года ведущими социологами региона и сотрудниками Центра регионального развития, и стала первой региональной некоммерческой организацией в сфере проведения социологических исследований и поддержки социальных инициатив Курской области.</p>
                 <p class="mission">Миссия Центра региональных исследований заключается в распространении идеологии о необходимости практических исследований в жизни общества.</p>
                 <p>Организация создана, прежде всего, с целью изучения проблем регионального развития, анализа и прогнозирования общественно-политической и социально-экономической ситуации в Курской области, а также для поддержки, сопровождения и практической реализации общественно значимых инициатив в регионе. </p>
@@ -47,9 +47,8 @@
             html, body {
                 height: 100%;
                 width: 100%;
-                font-size: 100%;
                 line-height: 1;
-                font-size: 14px;
+                font-size: 30px;
                 -ms-text-size-adjust: 100%;
                 -moz-text-size-adjust: 100%;
                 -webkit-text-size-adjust: 100%;
@@ -104,21 +103,20 @@
                 height:100%;
             }
 
-            /*h1{*/
-            /*    text-align:left;*/
-            /*    margin-left: 30%;*/
-            /*    text-transform: uppercase;*/
-            /*    font-weight: 900;*/
-            /*    font-size: 33px;*/
-            /*    text-shadow: 1px 1px 1px #000;*/
-            /*}*/
+            h1{
+                text-align:left;
+                margin-left: 10%;
+                text-transform: uppercase;
+                font-weight: 900;
+                font-size: 40px;
+            }
 
             span{
                 color: #FFD700;
             }
 
             .centre{
-                margin-top: 50px;
+                margin-top: -20px;
                 width: 100%;
                 height:200px;
                 color: #000;

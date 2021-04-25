@@ -22,7 +22,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Проекты</h5>
                                 <p class="card-text">Что-то о проектах</p>
-                                <a href="{{route('project.show', ['id' => $one_project->id])}}" class="btn btn-warning">Проекты</a>
+{{--                                <a href="{{route('project.show', ['id' => $one_project->id])}}" class="btn btn-warning">Проекты</a>--}}
                             </div>
                         </div>
                     </div>
@@ -32,7 +32,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Новости</h5>
                                 <p class="card-text">Свежак</p>
-                                <a href="{{route('news.show', ['id' => $one_news->id])}}" class="btn btn-warning">Новости</a>
+{{--                                <a href="{{route('news.show', ['id' => $one_news->id])}}" class="btn btn-warning">Новости</a>--}}
                             </div>
                         </div>
                     </div>

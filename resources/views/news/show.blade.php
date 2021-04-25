@@ -24,7 +24,7 @@
                         {{$one_news->message}}
                     </td>
                     <td>
-                        {{$one_news->link}}
+                        <a href="{{$one_news->link}}" class="btn btn-block btn-danger">{{$one_news->link}}</a>
                     </td>
                 </tr>
                 </tbody>

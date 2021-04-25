@@ -19,7 +19,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body style="background-color: #f8f9fa">
-<div class="navbar justify-content-between bg-light" style="display: flex; padding: 20px;border-bottom: solid 1px grey;">
+<div class="navbar justify-content-between bg-light sticky-top" style="display: flex; padding: 20px;border-bottom: solid 1px #f0f1f6;">
     <div style="margin-left: 50px;">
         <img src="/images/6.png" alt="">
     </div>
@@ -34,7 +34,7 @@
             <a href="{{route('project.index')}}">Проекты</a>
         </div>
         <div class="hv">
-            <a href="#">Деятельность</a>
+            <a href="/dei">Деятельность</a>
         </div>
         <div class="hv">
             <a href="#">Отчетность</a>
