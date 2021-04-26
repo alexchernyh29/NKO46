@@ -6,7 +6,7 @@
         <table class="table">
             <thead class="thead-light">
             <tr>
-                <th scope="col">Заголовок проекта</th>
+                <th style="width: 250px" scope="col">Заголовок проекта</th>
                 <th scope="col">Описание проекта</th>
                 <th scope="col">Ссылки</th>
             </tr>
@@ -15,16 +15,13 @@
                 <tbody>
                 <tr>
                     <td>
-                        {{$one_project->id}}
-                    </td>
-                    <td>
                         {{$one_project->title}}
                     </td>
                     <td>
                         {{$one_project->message}}
                     </td>
                     <td>
-                        {{$one_project->link}}
+                        <a style="width: 44px;border-radius: 50%" href="{{$one_project->link}}" class="btn btn-block btn-primary text-left">  <i class="fab fa-vk"></i></a>
                     </td>
                 </tr>
                 </tbody>

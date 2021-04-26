@@ -72,7 +72,7 @@ class NewsController extends Controller
                 $data['news'] = News::whereIn('id', [1,2,3])->get(); // some ids
                 break;
 
-        }
+        };
         return view('news.show', $data);
     }
 

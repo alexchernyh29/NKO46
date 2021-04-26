@@ -22,7 +22,11 @@
                             <div class="card-body">
                                 <h5 class="card-title">Проекты</h5>
                                 <p class="card-text">Что-то о проектах</p>
-                                <a href="/project/show/" class="btn btn-warning">Проекты</a>
+                                @php
+                                    $pr ='allproject';
+                                        //$pr = 'some_project';
+                                @endphp
+                                <a href="{{route('project.show', ['pr' => $pr])}}" class="btn btn-warning">Проекты</a>
                             </div>
                         </div>
                     </div>
@@ -50,11 +54,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Партнеры</h5>
                                         <p class="card-text">Норм типы</p>
-                                        @php
-                                        $pr ='allproject';
-                                            //$pr = 'some_project';
-                                        @endphp
-                                        <a href="{{route('project.show', ['pr' => $pr])}}" class="btn btn-warning">Новости</a>
+                                        <a href="/partners" class="btn btn-warning">Перейти к информации</a>
                                     </div>
                                 </div>
                             </div>
@@ -86,11 +86,11 @@
     </div>
     <div class="justify-content-between bg-light text-center" style=" padding: 20px;">
         <div>
-            <a href="#"><i class="fab fa-vk" style="padding: 5px; font-size:20px;"></i></a>
-            <a href="#"><i class="fab fa-telegram-plane" style="padding: 5px; font-size:20px;"></i></a>
-            <a href="#"><i class="fab fa-whatsapp" style="padding: 5px; font-size:20px;"></i></a>
-            <a href="#"><i class="fab fa-facebook" style="padding: 5px; font-size:20px;"></i></a>
-            <a href="#"><i class="fab fa-twitter" style="padding: 5px; font-size:20px;"></i></a>
+            <a href="https://vk.com/niknefed46"><i class="fab fa-vk" style="padding: 5px; font-size:20px;"></i></a>
+            <a href="https://vk.com/alexchernyh29"><i class="fab fa-telegram-plane" style="padding: 5px; font-size:20px;"></i></a>
+            <a href="https://vk.com/nottoday46"><i class="fab fa-whatsapp" style="padding: 5px; font-size:20px;"></i></a>
+            <a href="https://vk.com/id93867505"><i class="fab fa-facebook" style="padding: 5px; font-size:20px;"></i></a>
+            <a href="https://vk.com/id158565833"><i class="fab fa-twitter" style="padding: 5px; font-size:20px;"></i></a>
         </div>
     </div>
 

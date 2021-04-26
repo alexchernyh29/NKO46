@@ -14,7 +14,7 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        $data['project'] = Project::paginate(4);
+        $data['project'] = Project::paginate(10);
         return view('project.index', $data);
     }
 
@@ -55,12 +55,12 @@ class ProjectController extends Controller
 
     /**
      * @param Request $request
-     * @param $param
+     * @param $pr
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
-   public function show(Request $request, $param)
+   public function show(Request $request, $pr)
    {
-       switch ($param) {
+       switch ($pr) {
 
            case
            'allproject':
@@ -72,7 +72,7 @@ class ProjectController extends Controller
                $data['project'] = Project::whereIn('id', [1,2,3])->get(); // some ids
                break;
 
-       }
+       };
        return view('project.show', $data);
    }
 
